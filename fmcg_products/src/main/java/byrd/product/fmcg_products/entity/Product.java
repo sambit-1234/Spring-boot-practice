@@ -15,11 +15,15 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
+import byrd.product.fmcg_products.projectiondto.ProductDto;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -31,25 +35,26 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
+@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "productCode")
 public class Product {
 
 	@Column(name = "name")
 	protected String productName;
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name= "product_code")
 	protected int productCode;
 	
-	 @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-	 @JoinColumn(name = "classification_type_id")
-	 @JsonIgnoreProperties("products")
+	@ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
+	@JoinColumn(name = "classification_type_id")
+	@JsonIgnoreProperties("products")
 
 	protected Classification classificationType;
     
 
-	@ManyToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
+	@ManyToOne(cascade = CascadeType.MERGE,fetch = FetchType.EAGER)
 	@JoinColumn(name = "category_id")
-	 @JsonIgnoreProperties("products")
+	@JsonIgnoreProperties("products")
 	protected Category category;
     
 	protected String description;
@@ -60,6 +65,14 @@ public class Product {
 	@Enumerated(EnumType.STRING)
 	protected PackagingType packagingType;
 	
+	
+	public Product(ProductDto dto) {
+		this.productCode = dto.getProductCode();
+		this.availability = dto.getAvailability();
+		this.description = dto.getDescription();
+		this.packagingType = dto.getPackagingType();
+		this.productName = dto.getProductName();
+	}
 }
 
 

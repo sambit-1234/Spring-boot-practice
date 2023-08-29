@@ -1,0 +1,579 @@
+[
+  {
+    "product_code": 2,
+    "availability": "HIGH",
+    "description": "Provides Instant Energy",
+    "packaging_type": "TYPE2",
+    "name": "Red Bull",
+    "category_id": 192,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 3,
+    "availability": "HIGH",
+    "description": "Provides Instant Energy and contains 0 Sugar",
+    "packaging_type": "TYPE2",
+    "name": "Red Bull- Sugar Free",
+    "category_id": 192,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 4,
+    "availability": "LOW",
+    "description": "Energy drink by Logan Paul and KSI provides super boost to the Energy",
+    "packaging_type": "TYPE1",
+    "name": "Prime",
+    "category_id": 192,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 5,
+    "availability": "HIGH",
+    "description": "Gives you an energy boost to charge up and keeps you going",
+    "packaging_type": "TYPE2",
+    "name": "Sting",
+    "category_id": 192,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 6,
+    "availability": "MEDIUM",
+    "description": "Gatorade is a scientifically formulated sports drink with fluids, electrolytes (mineral salts), carbohydrates and flavor, that helps you to Rehydrate, Replenish and Refuel.",
+    "packaging_type": "TYPE1",
+    "name": "Gatorade",
+    "category_id": 192,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 7,
+    "availability": "HIGH",
+    "description": "This high caffeine drink gives you instant energy that has an ideal combo of the right ingredients in the right proportion and smooth easy drinking flavor makes monster drinks different.",
+    "packaging_type": "TYPE1",
+    "name": "Monster",
+    "category_id": 192,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 9,
+    "availability": "MEDIUM",
+    "description": "Securely packaged bottle of water with high minerals and essentials .",
+    "packaging_type": "TYPE1",
+    "name": "Bisleri Mineral Packaged Water Bottle"
+  },
+  {
+    "product_code": 10,
+    "availability": "HIGH",
+    "description": "India's most trusted packaged drinking water.",
+    "packaging_type": "TYPE3",
+    "name": "Kinley",
+    "category_id": 106,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 11,
+    "availability": "HIGH",
+    "description": "Precious drinking water with mineral rich nutrients.",
+    "packaging_type": "TYPE3",
+    "name": "Himalayan",
+    "category_id": 106,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 12,
+    "availability": "MEDIUM",
+    "description": "Juice of high quality fruits direct from the farm.",
+    "packaging_type": "TYPE2",
+    "name": "Real mixed fruit juice",
+    "category_id": 166,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 13,
+    "availability": "MEDIUM",
+    "description": "Hand picked fruits juiced and securely packed.",
+    "packaging_type": "TYPE3",
+    "name": "Paper Boat",
+    "category_id": 166,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 14,
+    "availability": "HIGH",
+    "description": "Fresh and juicy mangoes juice .",
+    "packaging_type": "TYPE2",
+    "name": "Maaza",
+    "category_id": 166,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 15,
+    "availability": "MEDIUM",
+    "description": "Handpicked Apple juice .",
+    "packaging_type": "TYPE2",
+    "name": "Appy Fizz",
+    "category_id": 166,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 16,
+    "availability": "LOW",
+    "description": "Fresh lychees crushed into the bottle  .",
+    "packaging_type": "TYPE3",
+    "name": "Lychee",
+    "category_id": 166,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 17,
+    "availability": "LOW",
+    "description": "Real aam panna the real taste of local india  .",
+    "packaging_type": "TYPE3",
+    "name": "Aam Panna",
+    "category_id": 166,
+    "classification_type_id": 19
+  },
+  {
+    "product_code": 18,
+    "availability": "MEDIUM",
+    "description": "Fresh cow milk from the diary.",
+    "packaging_type": "TYPE2",
+    "name": "Cow Milk",
+    "category_id": 203,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 19,
+    "availability": "MEDIUM",
+    "description": "Fresh butter made from Cow milk.",
+    "packaging_type": "TYPE2",
+    "name": "Butter",
+    "category_id": 203,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 20,
+    "availability": "LOW",
+    "description": "Fresh yogurt without any added chemicals.",
+    "packaging_type": "TYPE2",
+    "name": "Yogurt",
+    "category_id": 203,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 21,
+    "availability": "LOW",
+    "description": "Fresh cream without any added chemicals.",
+    "packaging_type": "TYPE1",
+    "name": "Cream",
+    "category_id": 203,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 22,
+    "availability": "LOW",
+    "description": "Fresh Buffalo milk.",
+    "packaging_type": "TYPE1",
+    "name": "Buffalo Milk",
+    "category_id": 203,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 23,
+    "availability": "MEDIUM",
+    "description": "India's most trusted cereal.",
+    "packaging_type": "TYPE2",
+    "name": "Kellogg's",
+    "category_id": 279,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 24,
+    "availability": "MEDIUM",
+    "description": "Healthy cereal for healthy lifestyle.",
+    "packaging_type": "TYPE3",
+    "name": "Bagrry's",
+    "category_id": 279,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 25,
+    "availability": "HIGH",
+    "description": "India's most selling brand.",
+    "packaging_type": "TYPE1",
+    "name": "Nastle",
+    "category_id": 279,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 26,
+    "availability": "LOW",
+    "description": "Best breakfast after workout.",
+    "packaging_type": "TYPE1",
+    "name": "MuscleBlaze",
+    "category_id": 279,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 27,
+    "availability": "MEDIUM",
+    "description": "Healthy mushrooms.",
+    "packaging_type": "TYPE3",
+    "name": "Mushroom (Button)",
+    "category_id": 227,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 28,
+    "availability": "MEDIUM",
+    "description": "Puree of freshly handpicked tomatoes.",
+    "packaging_type": "TYPE2",
+    "name": "Tomato paste",
+    "category_id": 227,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 29,
+    "availability": "LOW",
+    "description": "Farm Alphanso mango slices.",
+    "packaging_type": "TYPE1",
+    "name": "Alphanso Mango Pulp",
+    "category_id": 227,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 30,
+    "availability": "LOW",
+    "description": "Fresh Beans.",
+    "packaging_type": "TYPE1",
+    "name": "Fresh Beans",
+    "category_id": 227,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 31,
+    "availability": "MEDIUM",
+    "description": "Delicious pasta: just add hot water and keep for 5 minutes and ready to eat.",
+    "packaging_type": "TYPE2",
+    "name": "Pasta",
+    "category_id": 227,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 32,
+    "availability": "HIGH",
+    "description": "Healthy fresh bread",
+    "packaging_type": "TYPE3",
+    "name": "Bread",
+    "category_id": 240,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 33,
+    "availability": "MEDIUM",
+    "description": "Healthy brown bread with high protein",
+    "packaging_type": "TYPE2",
+    "name": "Brown Bread",
+    "category_id": 240,
+    "classification_type_id": 26
+  },
+  {
+    "product_code": 34,
+    "availability": "HIGH",
+    "description": "Best toilet cleaner in India",
+    "packaging_type": "TYPE3",
+    "name": "Harpic Disinfectant Toilet Cleaner Liquid",
+    "category_id": 331,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 35,
+    "availability": "HIGH",
+    "description": "Best toilet cleaner in India",
+    "packaging_type": "TYPE3",
+    "name": "Harpic Organic Active Disinfectant Toilet Cleaner Liquid",
+    "category_id": 331,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 36,
+    "availability": "HIGH",
+    "description": "Kills all germs in toilet to keep up the hygiene",
+    "packaging_type": "TYPE3",
+    "name": "Sanifresh toilet cleaner",
+    "category_id": 331,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 37,
+    "availability": "HIGH",
+    "description": "Keeps the tiles fresh and germs free",
+    "packaging_type": "TYPE2",
+    "name": "SuperMarble cleaner",
+    "category_id": 394,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 38,
+    "availability": "HIGH",
+    "description": "Gives a natural colour to your tiles",
+    "packaging_type": "TYPE3",
+    "name": "Italien Marble cleaner",
+    "category_id": 394,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 39,
+    "availability": "HIGH",
+    "description": "Freshen up your home with the smell of nature",
+    "packaging_type": "TYPE3",
+    "name": "Wonder Wash Tiles cleaner",
+    "category_id": 394,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 40,
+    "availability": "HIGH",
+    "description": "Completely cleans the carpet by killing all germs",
+    "packaging_type": "TYPE2",
+    "name": "Bissell Spot Clean PROHEAT",
+    "category_id": 377,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 41,
+    "availability": "MEDIUM",
+    "description": "Make your home germs free by cleaning the carpets",
+    "packaging_type": "TYPE1",
+    "name": "EUREKA Forbes ROBO iVAC",
+    "category_id": 377,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 42,
+    "availability": "LOW",
+    "description": "Open closed drains in 10 minutes",
+    "packaging_type": "TYPE3",
+    "name": "Harpic Drain Xpert",
+    "category_id": 345,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 43,
+    "availability": "HIGH",
+    "description": "Opens all kinds of blocked drainages",
+    "packaging_type": "TYPE2",
+    "name": "Pidilite D-Klog Powder",
+    "category_id": 345,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 44,
+    "availability": "LOW",
+    "description": "Muscles down all kind of drainages",
+    "packaging_type": "TYPE1",
+    "name": "Mr.Muscle Drain GEL",
+    "category_id": 345,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 45,
+    "availability": "LOW",
+    "description": "Open up the blocked drains",
+    "packaging_type": "TYPE2",
+    "name": "AAAL Drain Cleaner Flakes",
+    "category_id": 345,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 46,
+    "availability": "HIGH",
+    "description": "India's most selling detergent brand",
+    "packaging_type": "TYPE3",
+    "name": "Surf EXCEL",
+    "category_id": 378,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 47,
+    "availability": "HIGH",
+    "description": "Give a natural colour to your clothes",
+    "packaging_type": "TYPE3",
+    "name": "RIN",
+    "category_id": 378,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 48,
+    "availability": "HIGH",
+    "description": "Conditioner for your woolen dress",
+    "packaging_type": "TYPE1",
+    "name": "Ezee",
+    "category_id": 378,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 49,
+    "availability": "HIGH",
+    "description": "Most trusted Cleaning detergent in India",
+    "packaging_type": "TYPE2",
+    "name": "Nirma",
+    "category_id": 378,
+    "classification_type_id": 37
+  },
+  {
+    "product_code": 50,
+    "availability": "HIGH",
+    "description": "Most trusted brand for students",
+    "packaging_type": "TYPE3",
+    "name": "Reynolds",
+    "category_id": 448,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 51,
+    "availability": "HIGH",
+    "description": "Likhte chalo badhte chalo",
+    "packaging_type": "TYPE3",
+    "name": "Cello",
+    "category_id": 448,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 52,
+    "availability": "HIGH",
+    "description": "Best Pen in India",
+    "packaging_type": "TYPE3",
+    "name": "Waterman",
+    "category_id": 448,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 53,
+    "availability": "HIGH",
+    "description": "Most trusted brand in India",
+    "packaging_type": "TYPE3",
+    "name": "LINC",
+    "category_id": 448,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 54,
+    "availability": "HIGH",
+    "description": "Premium pen brand",
+    "packaging_type": "TYPE3",
+    "name": "Luxor",
+    "category_id": 448,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 55,
+    "availability": "HIGH",
+    "description": "Dark pencil for winners",
+    "packaging_type": "TYPE1",
+    "name": "Apsara",
+    "category_id": 472,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 56,
+    "availability": "HIGH",
+    "description": "Best pencil for students",
+    "packaging_type": "TYPE3",
+    "name": "HB12",
+    "category_id": 472,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 57,
+    "availability": "HIGH",
+    "description": "The old legacy of Indian pencil",
+    "packaging_type": "TYPE2",
+    "name": "Natraj",
+    "category_id": 472,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 58,
+    "availability": "HIGH",
+    "description": "Light stroke for the pure artists",
+    "packaging_type": "TYPE2",
+    "name": "Camlin",
+    "category_id": 472,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 59,
+    "availability": "HIGH",
+    "description": "Dark marker available in all color types",
+    "packaging_type": "TYPE1",
+    "name": "Luxor 12222",
+    "category_id": 487,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 60,
+    "availability": "HIGH",
+    "description": "Light marker available in all color types",
+    "packaging_type": "TYPE1",
+    "name": "Reynolds Permanent",
+    "category_id": 487,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 61,
+    "availability": "HIGH",
+    "description": "High End Marker to push your creativity",
+    "packaging_type": "TYPE1",
+    "name": "Classmate",
+    "category_id": 487,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 67,
+    "availability": "MEDIUM",
+    "description": "Waterproof Marker",
+    "packaging_type": "TYPE1",
+    "name": "Glass GEL",
+    "category_id": 487,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 70,
+    "availability": "MEDIUM",
+    "description": "Premium Marker",
+    "packaging_type": "TYPE1",
+    "name": "Magnum",
+    "category_id": 487,
+    "classification_type_id": 49
+  },
+  {
+    "product_code": 3357,
+    "availability": "HIGH",
+    "description": "This is a Test Product i guess again",
+    "packaging_type": "TYPE1",
+    "name": "Test_Prod"
+  },
+  {
+    "product_code": 3358,
+    "availability": "HIGH",
+    "description": "This is a Test Product i guess again",
+    "packaging_type": "TYPE1",
+    "name": "Test_Prod",
+    "category_id": 890,
+    "classification_type_id": 997
+  },
+  {
+    "product_code": 3367,
+    "availability": "LOW",
+    "description": "This is a Test Product i guess again",
+    "packaging_type": "TYPE1",
+    "name": "Test_Prod"
+  },
+  {
+    "product_code": 3390,
+    "availability": "LOW",
+    "description": "This is a Test Product i guess again",
+    "packaging_type": "TYPE1",
+    "name": "Test_Prod"
+  }
+]

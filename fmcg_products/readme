@@ -1,0 +1,6 @@
+if product is deleted by its productCode then only the single product is deleted and not its associations
+because other products are there for that category and ClassificationType as well
+
+if Category is deleted then along with the category all the Products within it are also deleted
+
+if ClassificationType is deleted then all categories under it along with all products within those categories will be deleted
